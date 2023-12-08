@@ -2,9 +2,6 @@
   "name": "Yucata iMproved",
   "version": "1.0",
   "description": "Improvements for the yucata.de board game website.",
-  "permissions": [
-    "http://yucata.de/*"
-  ],
   "content_scripts": [
     {
       "matches": [
@@ -20,6 +17,6 @@
   "manifest_version": 3,
   "content_security_policy": {},
   "host_permissions": [
-    "http://yucata.de/*"
+    "https://yucata.de/*"
   ]
 }
